@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/covidsa/static/css/main.d2bc03c6.chunk.css",
+    "main.js": "/covidsa/static/js/main.e991a70d.chunk.js",
+    "main.js.map": "/covidsa/static/js/main.e991a70d.chunk.js.map",
+    "runtime-main.js": "/covidsa/static/js/runtime-main.e0f026bc.js",
+    "runtime-main.js.map": "/covidsa/static/js/runtime-main.e0f026bc.js.map",
+    "static/js/2.8df3e1c9.chunk.js": "/covidsa/static/js/2.8df3e1c9.chunk.js",
+    "static/js/2.8df3e1c9.chunk.js.map": "/covidsa/static/js/2.8df3e1c9.chunk.js.map",
+    "index.html": "/covidsa/index.html",
+    "precache-manifest.df69e1d19b6d868335d27b048322122a.js": "/covidsa/precache-manifest.df69e1d19b6d868335d27b048322122a.js",
+    "service-worker.js": "/covidsa/service-worker.js",
+    "static/css/main.d2bc03c6.chunk.css.map": "/covidsa/static/css/main.d2bc03c6.chunk.css.map",
+    "static/js/2.8df3e1c9.chunk.js.LICENSE.txt": "/covidsa/static/js/2.8df3e1c9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0f026bc.js",
+    "static/js/2.8df3e1c9.chunk.js",
+    "static/css/main.d2bc03c6.chunk.css",
+    "static/js/main.e991a70d.chunk.js"
+  ]
+}
