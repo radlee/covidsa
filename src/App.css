@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #343944;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.list-group {
+  text-align: left;
+}
+
+.page-item {
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fdfdfd;;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.deaths {
+  border-radius: 50px;
+  background-color: #f50032;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+.cases {
+  border-radius: 6px;
+  background-color: rgb(24, 109, 92);
+  color: white;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.source {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: rgb(210, 128, 6);;
+}
+.heading-five {
+  font-size: 11px;
+  letter-spacing: 0px;
+  color: #0188fb;
+}
+
+
+.recovered {
+  color: green;
+  font-weight: bold;
+
+
+}
+.active {
+  color: rgb(128, 0, 38);
+  font-weight: bold;
+
+
+}
+.date {
+  color: blue;
+  text-decoration: underline;
+}
+
+.heading-two {
+  color: #444444
+}
+
+.pagination-nav {
+  padding: 30px
+}
+
+
+.ldp {
+  color: #1a42bd;
+}
+.react {
+  color: #0fdfdf;
+}
+
+.origin {
+  color: #b51010;
+}
+.project {
+  color: green ;
+}
+.dev {
+  color: rgb(216, 169, 0) ;
+}
+
+.coronaBanner {
+  display: block;
+  background-color: white;
+  text-align: center;
+  padding: 1em;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.6em;
+}
+
+.coronaBanner__content {
+  display: inline-block;
+  text-align: left;
+}
+
+.coronaBanner__websiteLink {
+  display: block;
+}
+.coronaBanner__websiteLinkImg {
+  border: 0;
+}
+
+.coronaBanner__hotlineLink,
+.coronaBanner__whatsappLink {
+  display: block;
+  text-decoration: none;
+  color: #e95211;
+}
+  .coronaBanner__hotlineLink:hover,
+  .coronaBanner__whatsappLink:hover {
+    text-decoration: underline;
+  }
+.coronaBanner__hotlineLink {
+  font-weight: bold;
+}
+
