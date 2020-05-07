@@ -54,11 +54,15 @@
   border-radius: 6px;
   background-color: rgb(24, 109, 92);
   color: white;
-  padding-top: 2px;
+  padding-top: 1px;
   padding-bottom: 1px;
   padding-right: 10px;
   padding-left: 10px;
   font-weight: bold;
+}
+
+.novel{
+  color: #d01616;
 }
 
 .source {
@@ -80,7 +84,7 @@
 
 }
 .active {
-  color: rgb(128, 0, 38);
+  color: rgb(80, 80, 80);
   font-weight: bold;
 
 

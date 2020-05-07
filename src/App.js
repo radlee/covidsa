@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import logo from './origin.png';
 import './App.css';
 import axios  from 'axios';
 import CovidHeader from './components/covidHeader/covidHeader';
@@ -37,13 +36,6 @@ import Pagination from './components/pagination/pagination';
       <div className="App">
 
         <CovidHeader />
-
-        <a  className="logo_link" 
-            href="https://radlee.github.io/origin-about" 
-            rel="logo_link"
-        >
-          <img src={logo} alt="logo" height="60px"/>
-        </a>
         
         <Table  posts={currentPost} 
                 loading={loading} />
@@ -62,7 +54,13 @@ import Pagination from './components/pagination/pagination';
               data-share="true">
 
         </div>
+
         <br/>
+
+        <hr />
+        <h4>All Countries affected by SARS-CoV-2 | COVID-19</h4>
+        <a title="Countries Stats" href="https://radlee.github.io/covidstats/" target="__blank">Browse and Search</a>
+
         <hr />
 
       </div>

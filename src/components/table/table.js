@@ -2,7 +2,7 @@ import React from 'react';
 const  Table = ({ posts }) => {
     return (
      <div class="container p-15">
-            <h2 class="heading-two">Update and History on the Novel COVID-19 in South Africa</h2>
+            <h2 class="heading-two">Update and History on <em class="novel">The Novel COVID-19</em> pandemic in South Africa</h2>
             <h5 class="heading-five"><em>(Statistics displayed update <b>daily and consistently in real-time.</b></em>)</h5> 
             <p class="source"><em>Source : <b><a tartget="__blank" href="https://disease.sh/">The NovelCOVID</a></b></em></p>           
                        
