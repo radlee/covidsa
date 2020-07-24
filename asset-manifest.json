@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/covidsa/static/css/main.2f30448a.chunk.css",
-    "main.js": "/covidsa/static/js/main.dad26948.chunk.js",
-    "main.js.map": "/covidsa/static/js/main.dad26948.chunk.js.map",
+    "main.css": "/covidsa/static/css/main.419aca51.chunk.css",
+    "main.js": "/covidsa/static/js/main.8bc7c27f.chunk.js",
+    "main.js.map": "/covidsa/static/js/main.8bc7c27f.chunk.js.map",
     "runtime-main.js": "/covidsa/static/js/runtime-main.e0f026bc.js",
     "runtime-main.js.map": "/covidsa/static/js/runtime-main.e0f026bc.js.map",
-    "static/js/2.8df3e1c9.chunk.js": "/covidsa/static/js/2.8df3e1c9.chunk.js",
-    "static/js/2.8df3e1c9.chunk.js.map": "/covidsa/static/js/2.8df3e1c9.chunk.js.map",
+    "static/css/2.4819d237.chunk.css": "/covidsa/static/css/2.4819d237.chunk.css",
+    "static/js/2.71716321.chunk.js": "/covidsa/static/js/2.71716321.chunk.js",
+    "static/js/2.71716321.chunk.js.map": "/covidsa/static/js/2.71716321.chunk.js.map",
     "index.html": "/covidsa/index.html",
-    "precache-manifest.9afd6f6d6119f198733737973052fb38.js": "/covidsa/precache-manifest.9afd6f6d6119f198733737973052fb38.js",
+    "precache-manifest.d3e34a3ec340b0e2824d0e88cc818e0a.js": "/covidsa/precache-manifest.d3e34a3ec340b0e2824d0e88cc818e0a.js",
     "service-worker.js": "/covidsa/service-worker.js",
-    "static/css/main.2f30448a.chunk.css.map": "/covidsa/static/css/main.2f30448a.chunk.css.map",
-    "static/js/2.8df3e1c9.chunk.js.LICENSE.txt": "/covidsa/static/js/2.8df3e1c9.chunk.js.LICENSE.txt"
+    "static/css/2.4819d237.chunk.css.map": "/covidsa/static/css/2.4819d237.chunk.css.map",
+    "static/css/main.419aca51.chunk.css.map": "/covidsa/static/css/main.419aca51.chunk.css.map",
+    "static/js/2.71716321.chunk.js.LICENSE.txt": "/covidsa/static/js/2.71716321.chunk.js.LICENSE.txt",
+    "static/media/logo.png": "/covidsa/static/media/logo.5abea531.png",
+    "static/media/origin.png": "/covidsa/static/media/origin.c82bf467.png",
+    "static/media/react_banner.png": "/covidsa/static/media/react_banner.047b225e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e0f026bc.js",
-    "static/js/2.8df3e1c9.chunk.js",
-    "static/css/main.2f30448a.chunk.css",
-    "static/js/main.dad26948.chunk.js"
+    "static/css/2.4819d237.chunk.css",
+    "static/js/2.71716321.chunk.js",
+    "static/css/main.419aca51.chunk.css",
+    "static/js/main.8bc7c27f.chunk.js"
   ]
 }
