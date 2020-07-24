@@ -5,11 +5,15 @@
   "homepage": "https://radlee.github.io/covidsa",
   "dependencies": {
     "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "bootstrap": "^4.5.0",
+    "reactstrap": "^8.5.1",
     "covidtracker": "^2.0.1",
     "cra-template": "1.0.3",
     "react": "^16.13.1",
     "react-axios": "^2.0.3",
     "react-dom": "^16.13.1",
+    "react-paginate": "^6.3.2",
     "react-scripts": "3.4.1"
   },
   "scripts": {

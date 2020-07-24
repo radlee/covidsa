@@ -2,9 +2,24 @@
   text-align: center;
 }
 
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 
@@ -44,21 +59,22 @@
 }
 
 .deaths {
-  border-radius: 50px;
+  border-radius: 5px;
   background-color: #f50032;
   color: white;
   padding: 10px;
   font-weight: bold;
 }
 .cases {
-  border-radius: 6px;
+  border-radius: 5px;
   background-color: rgb(24, 109, 92);
   color: white;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  padding-right: 10px;
-  padding-left: 10px;
-  font-weight: bold;
+  padding: 5px;
+}
+.date {
+ 
+  color: black !important;
+
 }
 
 .novel{
@@ -89,13 +105,11 @@
 
 
 }
-.date {
-  color: blue;
-  text-decoration: underline;
-}
 
 .heading-two {
-  color: #444444
+  color: #444444;
+  font-weight: bolder;
+  font-family: Arial, Helvetica;
 }
 
 .pagination-nav {
@@ -120,6 +134,31 @@
   color: rgb(216, 169, 0) ;
 }
 
+.loading {
+  text-align: right !important;
+  padding: 60px;
+}
+
+.table-head {
+  color: white;
+  background-color: #353636 !important;
+  border-bottom: 6px solid rgb(236 28 28) !important;
+}
+
+.card-header {
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  color: white;
+  background-color: #353636 !important;
+  border-bottom: 6px solid rgb(236 28 28) !important;
+}
+.card-footer {
+  padding: .75rem 1.25rem;
+  color: #ffb937;
+  background-color: #383838 !important;
+  border-top: 6px solid #f2c530 !important;
+}
+
 .coronaBanner {
   display: block;
   background-color: white;
@@ -127,7 +166,7 @@
   padding: 1em;
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   font-size: 0.8em;
-  line-height: 1.6em;
+  line-height: 3.6em;
 }
 
 .coronaBanner__content {
@@ -146,6 +185,7 @@
 .coronaBanner__whatsappLink {
   display: block;
   text-decoration: none;
+  text-align: center;
   color: #e95211;
 }
   .coronaBanner__hotlineLink:hover,
@@ -156,3 +196,28 @@
   font-weight: bold;
 }
 
+.foot{
+  text-align: right !important;
+}
+
+/* Scroll to Top Styles */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgb(10, 129, 133);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+
+}
+#myBtn:hover {
+  background-color: rgb(7, 48, 82);
+}
